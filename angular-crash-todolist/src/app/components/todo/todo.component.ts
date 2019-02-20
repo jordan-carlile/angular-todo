@@ -13,7 +13,6 @@ export class TodoComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.name = "TOODOO";
     this.todos = [
       {
         id: 1,
